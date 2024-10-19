@@ -12,4 +12,5 @@ if __name__ == '__main__':
     if not(exists(argv[1])):
         print(f'Missing {argv[1]}')
         exit(1)
+    print('')
     exit(0)
