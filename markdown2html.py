@@ -12,6 +12,6 @@ if __name__ == '__main__':
     if not(exists(argv[1])):
         print(f'Missing {argv[1]}')
         exit(1)
-    with open(argv[2], 'rw') as file:
+    with open(argv[2], 'w') as file:
         pass
     exit(0)
